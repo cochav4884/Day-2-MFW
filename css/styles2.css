@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.item {
+    flex: 1 1 33%;
+    background-color: purple;
+    min-width: 300px;
+}
