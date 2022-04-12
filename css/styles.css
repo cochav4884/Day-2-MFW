@@ -3,15 +3,11 @@ body {
 	margin: 0;
 }
 
-
-.aboutbody {
-	background: rgb(35, 77, 168);
-}
-
 .container {
 	background-color: rgb(10, 6, 48, 0.5);
 	margin: auto;
-	height: 1250px;
+	padding: -25px;
+	height: 1200px;
 	width: 1200px;
 	margin-bottom: 0;
 }
@@ -126,7 +122,7 @@ footer {
 .text {
 	padding-top: 5px;
 	color: rgb(255, 255, 255);
-	float: right;
+	text-align: center;
 }
 
 /* icons */
