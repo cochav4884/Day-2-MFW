@@ -1,13 +1,18 @@
 body {
-    background: rgb(33, 6, 33, 0.5);
-    margin: 0;
+	background: rgb(33, 6, 33, 0.5);
+	margin: 0;
+}
+
+
+.aboutbody {
+	background: rgb(35, 77, 168);
 }
 
 .container {
 	background-color: rgb(10, 6, 48, 0.5);
 	margin: auto;
-	height: 1210px;
-	width: 1000px;
+	height: 1250px;
+	width: 1200px;
 	margin-bottom: 0;
 }
 
@@ -19,7 +24,8 @@ header {
 	margin-bottom: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
 	margin-bottom: 0;
 }
 
@@ -35,7 +41,7 @@ ul {
 li a {
 	text-decoration: none;
 	color: rgb(51, 35, 192);
-	background-color: rgb(192, 192, 192);	
+	background-color: rgb(192, 192, 192);
 	float: right;
 	margin: 5px;
 	padding: 25px;
@@ -44,7 +50,7 @@ li a {
 }
 
 li a:hover {
-	color:rgb(255, 255, 255); 
+	color: rgb(255, 255, 255);
 	background-color: rgb(135, 206, 235);
 }
 
@@ -52,7 +58,7 @@ li a:hover {
 .hero {
 	border: 1px solid rgb(12, 12, 12);
 	background-color: rgb(255, 255, 255);
-	height: 1200px;
+	height: 1250px;
 	background-position: bottom right;
 }
 
@@ -63,10 +69,11 @@ li a:hover {
 	display: inline-block;
 	color: rgb(12, 12, 12);
 	position: relative;
-	top: -1215px;
+	top: -1255px;
 	left: -40px;
 	margin-left: 80px;
-	height: 1189px;
+	height: 1229px;
+	width: 1020px;
 }
 
 p {
@@ -76,7 +83,7 @@ p {
 	font-size: 12px;
 	float: left;
 	text-align: left;
-} 
+}
 
 h3 {
 	color: rgb(6, 147, 227);
@@ -110,7 +117,7 @@ footer {
 	text-align: center;
 	background-color: rgb(10, 6, 48);
 	height: 350px;
-	width: 970px;
+	width: 1170px;
 	color: rgb(255, 255, 255);
 	margin: auto;
 	padding: 15px;
@@ -167,40 +174,50 @@ footer {
 	margin-top: 25px;
 }
 
+.top {
+	margin-top: 25px;
+}
+
 @media (max-width: 1024px) {
 	header {
 		background-color: rgb(65, 6, 242);
 	}
-h1 {
-	background-color: rgb(65, 6, 242);
-}
-path {
-	fill: rgb(65, 6, 242);
-}
+
+	h1 {
+		background-color: rgb(65, 6, 242);
+	}
+
+	path {
+		fill: rgb(65, 6, 242);
+	}
 }
 
 @media (max-width: 768px) {
 	header {
 		background-color: rgb(168, 29, 94);
 	}
-h1 {
-	background-color: rgb(168, 29, 94);
-}
-path {
-	fill: rgb(168, 29, 94);
-}
+
+	h1 {
+		background-color: rgb(168, 29, 94);
+	}
+
+	path {
+		fill: rgb(168, 29, 94);
+	}
 }
 
 @media (max-width: 480px) {
 	header {
 		background-color: rgb(52, 165, 82);
 	}
-h1 {
-	background-color: rgb(52, 165, 82);
-}
-path {
-	fill: rgb(52, 165, 82);
-}
+
+	h1 {
+		background-color: rgb(52, 165, 82);
+	}
+
+	path {
+		fill: rgb(52, 165, 82);
+	}
 }
 
 .item {
