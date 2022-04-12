@@ -43,6 +43,7 @@ li a {
 	padding: 25px;
 	border-radius: 50%;
 	font-size: larger;
+	box-shadow: 4px 8px 10px rgb(10, 6, 48);
 }
 
 li a:hover {
@@ -70,6 +71,11 @@ li a:hover {
 	margin-left: 80px;
 	height: 1229px;
 	width: 1020px;
+}
+
+.white {
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px rgb(10, 6, 48);
 }
 
 p {
@@ -107,12 +113,16 @@ h3 {
 
 }
 
+.center{
+float: right;
+}
+
 /* Footer */
 footer {
 	clear: both;
 	text-align: center;
 	background-color: rgb(10, 6, 48);
-	height: 350px;
+	height: 650px;
 	width: 1170px;
 	color: rgb(255, 255, 255);
 	margin: auto;
@@ -171,7 +181,27 @@ footer {
 }
 
 .top {
-	margin-top: 25px;
+	margin-top:-30px;
+	float: right;
+}
+
+.text-back-footer {
+	color: rgb(12, 12, 12);
+	position: relative;
+	top: -7px;
+	height: 600px;
+	width: 800px;
+	float: left;
+}
+
+aside {
+	clear: right;
+	padding-right: 54px;
+}
+
+section {
+	float: right;
+	margin-top: -550px;
 }
 
 @media (max-width: 1024px) {
@@ -214,23 +244,4 @@ footer {
 	path {
 		fill: rgb(52, 165, 82);
 	}
-}
-
-.item {
-	text-align: left;
-	float: right;
-	color: rgb(255, 255, 255);
-}
-
-.item1 {
-	text-align: left;
-	float: right;
-	color: rgb(255, 255, 255);
-}
-
-.item2 {
-	text-align: left;
-	float: right;
-	color: rgb(255, 255, 255);
-	float: left;
 }
