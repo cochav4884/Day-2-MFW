@@ -13,11 +13,12 @@ footer {
 	clear: both;
 	text-align: center;
 	background-color: rgb(10, 6, 48);
-	height: 650px;
-	width: 98%;
+	height: 586px;
+	width: 97%;
 	color: rgb(255, 255, 255);
 	margin: auto;
 	padding: 15px;
+	padding-left: 10px;
 }
 
 .text {
@@ -63,12 +64,11 @@ footer {
 
 .privacy {
 	color: rgba(255, 255, 255, 0.719);
-	margin-top: 25px;
 }
+
 
 .terms {
 	color: rgba(255, 255, 255, 0.719);
-	margin-top: 25px;
 }
 
 .top {
