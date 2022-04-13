@@ -114,8 +114,8 @@ h3 {
 
 }
 
-.center{
-float: right;
+.center {
+	float: right;
 }
 
 /* Footer */
@@ -130,11 +130,14 @@ footer {
 	padding: 15px;
 }
 
+section {
+	float: right;
+	padding-right: 49px;
+}
+
 .text {
 	padding-top: 5px;
 	color: rgb(255, 255, 255);
-	text-align: center;
-	margin-left: 80px;
 }
 
 /* icons */
@@ -160,35 +163,36 @@ footer {
 
 .author {
 	color: rgba(255, 255, 255, 0.719);
-	padding-top: 20px;
+	margin-top: 15px;
+}
+
+.phone {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 15px;
+}
+
+.general {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 15px;
 }
 
 .myname {
 	font-size: larger;
-	text-align: center;
 }
 
-.email {
-	text-align: center;
+.tamarack {
+	font-size: larger;
 }
 
-.privacy {
-	color: rgba(255, 255, 255, 0.719);
-}
-
-.terms {
-	color: rgba(255, 255, 255, 0.719);
-}
-
-.top {
-	margin-top: 40px;
+.back {
+	margin-top: 15px;
 }
 
 .text-back-footer {
 	position: relative;
 	top: -7px;
 	height: 500px;
-	width: 650px;
+	width: 800px;
 	float: left;
 }
 
