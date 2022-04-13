@@ -13,7 +13,7 @@ footer {
 	clear: both;
 	text-align: center;
 	background-color: rgb(10, 6, 48);
-	height: 586px;
+	height: 588px;
 	width: 97%;
 	color: rgb(255, 255, 255);
 	margin: auto;
@@ -50,7 +50,7 @@ footer {
 
 .author {
 	color: rgba(255, 255, 255, 0.719);
-	padding-top: 80px;
+	padding-top: 20px;
 }
 
 .myname {
@@ -66,34 +66,21 @@ footer {
 	color: rgba(255, 255, 255, 0.719);
 }
 
-
 .terms {
 	color: rgba(255, 255, 255, 0.719);
 }
 
 .top {
-	margin-top:510px;
-	float: right;
+	margin-top:70px;
 }
 
 .text-back-footer {
-	color: rgb(12, 12, 12);
 	position: relative;
 	top: -7px;
 	height: 600px;
 	width: 800px;
 	float: left;
 }
-
-aside {
-	clear: right;
-	margin-right: 125px;
-}
-
-section {
-	float: right;
-}
-
 
 @media (max-width: 1024px) {
 	header {
