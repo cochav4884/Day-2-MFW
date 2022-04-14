@@ -7,7 +7,7 @@ body {
 	background-color: rgb(10, 6, 48, 0.5);
 	margin: auto;
 	padding: -25px;
-	height: 1200px;
+	height: 1250px;
 	width: 1200px;
 	margin-bottom: 0;
 }
@@ -111,7 +111,6 @@ h3 {
 .text-right {
 	float: left;
 	text-align: right;
-
 }
 
 .center {
@@ -124,20 +123,22 @@ footer {
 	text-align: center;
 	background-color: rgb(10, 6, 48);
 	height: 600px;
-	width: 1170px;
+	width: 1176px;
 	color: rgb(255, 255, 255);
 	margin: auto;
 	padding: 15px;
+	padding-left: 10px;
 }
 
-section {
+/* section {
 	float: right;
 	padding-right: 49px;
-}
+} */
 
 .text {
 	padding-top: 5px;
 	color: rgb(255, 255, 255);
+	/* text-align: center; */
 }
 
 /* icons */
@@ -208,7 +209,7 @@ section {
 .text-back-footer {
 	position: relative;
 	top: -7px;
-	height: 500px;
+	height: 600px;
 	width: 800px;
 	float: left;
 }
