@@ -53,9 +53,27 @@ footer {
 	padding-top: 20px;
 }
 
+.phone {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 15px;
+}
+
+.general {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 15px;
+}
+
 .myname {
 	font-size: larger;
 	text-align: center;
+}
+
+.tamarack {
+	font-size: larger;
+}
+
+.back {
+	margin-top: 15px;
 }
 
 .email {
@@ -71,7 +89,7 @@ footer {
 }
 
 .top {
-	margin-top:60px;
+	margin-top: 60px;
 }
 
 .text-back-footer {

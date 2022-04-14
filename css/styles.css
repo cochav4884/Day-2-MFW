@@ -188,6 +188,23 @@ section {
 	margin-top: 15px;
 }
 
+.email {
+	text-align: center;
+}
+
+.privacy {
+	color: rgba(255, 255, 255, 0.719);
+}
+
+.terms {
+	color: rgba(255, 255, 255, 0.719);
+}
+
+.top {
+	margin-top: 60px;
+}
+
+
 .text-back-footer {
 	position: relative;
 	top: -7px;
