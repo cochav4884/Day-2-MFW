@@ -28,10 +28,6 @@ footer {
 }
 
 /* icons */
-.fa-heart {
-	color: rgb(255, 255, 255);
-}
-
 .fa-facebook {
 	color: rgb(255, 255, 255);
 }
@@ -40,11 +36,11 @@ footer {
 	color: rgb(255, 255, 255);
 }
 
-.fa-snapchat {
+.fa-twitter {
 	color: rgb(255, 255, 255);
 }
 
-.fa-twitter {
+.fa-youtube {
 	color: rgb(255, 255, 255);
 }
 
