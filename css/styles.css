@@ -7,8 +7,8 @@ body {
 	background-color: rgb(10, 6, 48, 0.5);
 	margin: auto;
 	padding: -25px;
-	height: 1250px;
-	width: 1200px;
+	height: 1950px;
+	width: 1250px;
 	margin-bottom: 0;
 }
 
@@ -54,9 +54,9 @@ li a:hover {
 
 /* Hero */
 .hero {
-	border: 1px solid rgb(12, 12, 12);
 	background-color: rgb(255, 255, 255);
-	height: 1250px;
+	height: 1300px;
+	width: 1250px;
 	background-position: bottom right;
 }
 
@@ -67,11 +67,11 @@ li a:hover {
 	display: inline-block;
 	color: rgb(12, 12, 12);
 	position: relative;
-	top: -1255px;
+	top: -1304px;
 	left: -40px;
-	margin-left: 80px;
-	height: 1229px;
-	width: 1020px;
+	margin-left: 40px;
+	height: 1276px;
+	width: 1150px;
 }
 
 .white {
