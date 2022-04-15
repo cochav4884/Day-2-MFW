@@ -90,6 +90,22 @@ p {
 	text-align: left;
 }
 
+.item1 {
+	float: left;
+}
+
+section {
+	float: right;
+	clear: none;
+}
+
+aside {
+	float: none;
+	clear: right;
+	margin-right: -10px;
+
+}
+
 h3 {
 	color: rgb(6, 147, 227);
 	letter-spacing: 2px;
@@ -252,11 +268,12 @@ footer {
 }
 
 .contact-h2 {
-	background-color: rgb(33, 6, 33, 0.5);
+	background-color: rgb(135, 206, 235, 0.725);
 	font-size: xxx-large;
 	margin-bottom: 15px;
 	box-shadow: 4px 8px 10px rgb(10, 6, 48);
 	border: 1px solid rgb(12, 12, 12);
+	color: rgb(255, 255, 255);
 }
 
 .contactform {
@@ -266,9 +283,9 @@ footer {
 	color: rgb(12, 12, 12);
 	border: 1px solid rgb(12, 12, 12);
 	box-shadow: 4px 8px 10px rgb(10, 6, 48);
-	background-color: rgb(33, 6, 33, 0.5);
+	background-color: rgb(135, 206, 235, 0.725);
 	font-weight: bold;
-
+	color: rgb(255, 255, 255);
 }
 
 input[type=text] {
@@ -277,6 +294,7 @@ input[type=text] {
 	height: 50px;
 	box-shadow: 4px 8px 10px rgb(10, 6, 48);
 	border: 1px solid rgb(12, 12, 12);
+	background-color: rgb(135, 206, 235, 0.725);
 }
 
 textarea {
@@ -284,6 +302,7 @@ textarea {
 	padding: -25px;
 	box-shadow: 4px 8px 10px rgb(10, 6, 48);
 	border: 1px solid rgb(12, 12, 12);
+	background-color: rgb(135, 206, 235, 0.725);
 }
 
 button[type=submit] {
@@ -291,6 +310,8 @@ button[type=submit] {
 	height: 50px;
 	float: left;
 	border: 1px solid rgb(12, 12, 12);
+	background-color: rgb(135, 206, 235, 0.725);
+	color: rgb(255, 255, 255);
 }
 
 .page {
