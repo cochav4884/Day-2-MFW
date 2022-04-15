@@ -7,7 +7,7 @@ body {
 	background-color: rgb(10, 6, 48, 0.5);
 	margin: auto;
 	padding: -25px;
-	height: 1950px;
+	height: 2055px;
 	width: 1250px;
 	margin-bottom: 0;
 }
@@ -19,6 +19,7 @@ header {
 	text-align: center;
 	margin-bottom: 0;
 	text-shadow: 4px 7px rgb(12, 12, 12);
+	padding-top: 100px;
 }
 
 h1,
@@ -45,6 +46,7 @@ li a {
 	border-radius: 50%;
 	font-size: larger;
 	box-shadow: 4px 8px 10px rgb(10, 6, 48);
+	margin-top: 15px;
 }
 
 li a:hover {
@@ -55,7 +57,7 @@ li a:hover {
 /* Hero */
 .hero {
 	background-color: rgb(255, 255, 255);
-	height: 1300px;
+	height: 1350px;
 	width: 1250px;
 	background-position: bottom right;
 }
@@ -67,10 +69,10 @@ li a:hover {
 	display: inline-block;
 	color: rgb(12, 12, 12);
 	position: relative;
-	top: -1304px;
+	top: -1355px;
 	left: -40px;
 	margin-left: 40px;
-	height: 1276px;
+	height: 1326px;
 	width: 1150px;
 }
 
@@ -122,18 +124,13 @@ footer {
 	clear: both;
 	text-align: center;
 	background-color: rgb(10, 6, 48);
-	height: 600px;
+	height: 650px;
 	width: 1176px;
 	color: rgb(255, 255, 255);
 	margin: auto;
 	padding: 15px;
 	padding-left: 10px;
 }
-
-/* section {
-	float: right;
-	padding-right: 49px;
-} */
 
 .text {
 	padding-top: 5px;
@@ -160,17 +157,22 @@ footer {
 
 .author {
 	color: rgba(255, 255, 255, 0.719);
-	margin-top: 15px;
+	margin-top: 80px;
 }
 
 .phone {
 	color: rgba(255, 255, 255, 0.719);
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 .general {
 	color: rgba(255, 255, 255, 0.719);
-	margin-top: 15px;
+	margin-top: 25px;
+}
+
+.email {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 25px;
 }
 
 .myname {
@@ -185,9 +187,6 @@ footer {
 	margin-top: 15px;
 }
 
-.email {
-	text-align: center;
-}
 
 .privacy {
 	color: rgba(255, 255, 255, 0.719);
@@ -203,8 +202,8 @@ footer {
 
 
 .text-back-footer {
-	position: relative;
-	top: -7px;
+	margin-top: 25px;
+	margin-left: 25px;
 	height: 600px;
 	width: 800px;
 	float: left;

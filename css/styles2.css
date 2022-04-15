@@ -13,7 +13,7 @@ footer {
 	clear: both;
 	text-align: center;
 	background-color: rgb(10, 6, 48);
-	height: 588px;
+	height: 595px;
 	width: 97%;
 	color: rgb(255, 255, 255);
 	margin: auto;
@@ -51,10 +51,15 @@ footer {
 
 .phone {
 	color: rgba(255, 255, 255, 0.719);
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .general {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 15px;
+}
+
+.email {
 	color: rgba(255, 255, 255, 0.719);
 	margin-top: 15px;
 }
@@ -72,10 +77,6 @@ footer {
 	margin-top: 15px;
 }
 
-.email {
-	text-align: center;
-}
-
 .privacy {
 	color: rgba(255, 255, 255, 0.719);
 }
@@ -89,8 +90,6 @@ footer {
 }
 
 .text-back-footer {
-	position: relative;
-	top: -7px;
 	height: 600px;
 	width: 800px;
 	float: left;
