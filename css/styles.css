@@ -14,11 +14,10 @@ body {
 
 header {
 	background-color: rgb(6, 147, 227, 0.2);
-	color: rgb(255, 255, 255, 0.725);
+	color: rgb(255, 255, 255);
 	padding-top: 50px;
 	text-align: center;
 	margin-bottom: 0;
-	text-shadow: 4px 7px rgb(12, 12, 12);
 	padding-top: 100px;
 }
 
@@ -74,6 +73,7 @@ li a:hover {
 	margin-left: 40px;
 	height: 1326px;
 	width: 1150px;
+	letter-spacing: 2px;
 }
 
 .white {
