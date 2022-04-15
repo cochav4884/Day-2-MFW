@@ -45,13 +45,13 @@ li a {
 	padding: 25px;
 	border-radius: 50%;
 	font-size: larger;
-	box-shadow: 4px 8px 10px rgb(10, 6, 48);
+	box-shadow: 4px 8px 10px rgb(161, 86, 86);
 	margin-top: 15px;
 }
 
 li a:hover {
-	color: rgb(255, 255, 255);
-	background-color: rgb(135, 206, 235);
+	color: rgb(161, 86, 86);
+	background-color: rgb(235, 208, 135, 0.725);
 }
 
 /* Hero */
