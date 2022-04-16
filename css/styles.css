@@ -4,12 +4,11 @@ body {
 }
 
 .container {
-	background-color: rgb(10, 6, 48, 0.5);
+	background-color: rgb(10, 6, 48, 0.3);
 	margin: auto;
 	padding: -25px;
 	height: 2055px;
 	width: 1250px;
-	margin-bottom: 0;
 }
 
 header {
@@ -39,19 +38,19 @@ ul {
 li a {
 	text-decoration: none;
 	color: rgb(51, 35, 192);
-	background-color: rgb(192, 192, 192);
+	background-color: rgb(10, 6, 48);
 	float: right;
 	margin: 5px;
 	padding: 25px;
 	border-radius: 50%;
 	font-size: larger;
-	box-shadow: 4px 8px 10px rgb(161, 86, 86);
+	box-shadow: 4px 8px 10px rgb(255, 255, 255);
 	margin-top: 15px;
 }
 
 li a:hover {
-	color: rgb(161, 86, 86);
-	background-color: rgb(235, 208, 135, 0.725);
+	color: rgb(255, 255, 255);
+	background-color: rgb(6, 147, 227, 0.725);
 }
 
 /* Hero */
