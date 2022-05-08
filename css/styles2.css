@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgb(33, 6, 33, 0.5);
+}
+
+.pp-ul {
+	list-style-type: none;
+}
+
+h1, h2, h3 {
+	color: rgb(10, 6, 48);
+}
+
+p {
+	font-size: 18px;
+	color: rgb(255, 255, 255, 0.5);
+}
+
+ul li a{
+	color: rgb(65, 6, 242);
+}
+
+.a {
+	color: rgb(65, 6, 242);	
+}
+
+li {
+	color: rgb(255, 255, 255, 0.5);
+}
+
+/* Footer */
+footer {
+	clear: both;
+	text-align: center;
+	background-color: rgb(10, 6, 48);
+	height: 630px;
+	width: 97%;
+	color: rgb(255, 255, 255);
+	margin: auto;
+	padding: 15px;
+	padding-left: 10px;
+}
+
+.text {
+	padding-top: 5px;
+	color: rgb(255, 255, 255);
+	/* text-align: center; */
+}
+
+/* icons */
+.fa-facebook {
+	color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+	color: rgb(255, 255, 255);
+}
+
+.fa-twitter {
+	color: rgb(255, 255, 255);
+}
+
+.fa-youtube {
+	color: rgb(255, 255, 255);
+}
+
+.author {
+	color: rgba(255, 255, 255, 0.719);
+	padding-top: 20px;
+}
+
+.phone {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 20px;
+}
+
+.general {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 15px;
+}
+
+.email {
+	color: rgba(255, 255, 255, 0.719);
+	margin-top: 15px;
+}
+
+.myname {
+	font-size: larger;
+	text-align: center;
+}
+
+.tamarack {
+	font-size: larger;
+}
+
+.back {
+	margin-top: 15px;
+}
+
+.privacy {
+	color: rgba(255, 255, 255, 0.719);
+}
+
+.terms {
+	color: rgba(255, 255, 255, 0.719);
+}
+
+.top {
+	margin-top: 60px;
+}
+
+.text-back-footer {
+	height: 600px;
+	width: 800px;
+	float: left;
+}
+
+@media (max-width: 1024px) {
+	header {
+		background-color: rgb(65, 6, 242);
+	}
+
+	h1 {
+		background-color: rgb(65, 6, 242);
+	}
+
+	path {
+		fill: rgb(65, 6, 242);
+	}
+}
+
+@media (max-width: 768px) {
+	header {
+		background-color: rgb(168, 29, 94);
+	}
+
+	h1 {
+		background-color: rgb(168, 29, 94);
+	}
+
+	path {
+		fill: rgb(168, 29, 94);
+	}
+}
+
+@media (max-width: 480px) {
+	header {
+		background-color: rgb(52, 165, 82);
+	}
+
+	h1 {
+		background-color: rgb(52, 165, 82);
+	}
+
+	path {
+		fill: rgb(52, 165, 82);
+	}
+}
