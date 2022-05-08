@@ -11,12 +11,26 @@ body {
 	background: rgb(33, 6, 33, 0.5);
 }
 
+.container-about {
+	background: rgb(33, 6, 33, 0.5);
+	margin: auto;
+	width: 1360px;
+}
+
 /* Hero */
 .hero {
-    background-color: transparent;
-    background: transparent;
-    background-position: bottom right;
+	background-color: transparent;
+	background: transparent;
+	background-position: bottom right;
 	margin-bottom: 10px;
+}
+
+.hero-about {
+	background-color: transparent;
+	background: transparent;
+	background-position: bottom right;
+	margin-bottom: 10px;
+	padding-top: 30px;
 }
 
 .text-back {
@@ -48,6 +62,11 @@ ul {
 	margin-top: 74px;
 }
 
+.ul {
+	margin-bottom: 45px;
+	margin-right: 30px;
+}
+
 ul li {
 	display: inline-block;
 }
@@ -73,12 +92,21 @@ ul li a:hover {
 }
 
 article {
-	margin-top:450px;
+	margin-top: 450px;
 }
 
 .white {
 	color: rgb(255, 255, 255);
 	text-shadow: 2px 2px rgb(10, 6, 48);
+}
+
+.black {
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px rgb(10, 6, 48);
+	text-align: left;
+	margin-left: 60px;
+	margin-bottom: 10px;
+
 }
 
 p {
@@ -93,18 +121,19 @@ p {
 
 .item1 {
 	float: left;
+	margin-left: 30px;
 }
 
 section {
 	float: right;
 	clear: none;
+	margin-right: 30px;
 }
 
-aside {
+.aside {
 	float: none;
 	clear: right;
-	margin-right: -10px;
-
+	margin-left: 130px;
 }
 
 h3 {
@@ -146,9 +175,23 @@ footer {
 	float: both;
 }
 
+.footer-about {
+	text-align: center;
+	background-color: rgb(10, 6, 48);
+	height: 680px;
+	width: 1300px;
+	color: rgb(255, 255, 255);
+	margin: auto;
+	padding: 15px;
+	padding-left: 10px;
+	float: both;
+	margin-top: 150px;
+}
+
 .map {
 	float: left;
 	margin-top: 25px;
+	margin-left: 23px;
 }
 
 .text {
