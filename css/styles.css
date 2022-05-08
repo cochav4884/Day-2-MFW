@@ -4,42 +4,58 @@ body {
 }
 
 .container {
-	background-color: rgb(10, 6, 48, 0.3);
 	margin: auto;
-	padding: -25px;
-	height: 2055px;
-	width: 1250px;
+	padding: 15px;
+	width: 1600px;
+	height: 2220px;
+	background: rgb(33, 6, 33, 0.5);
 }
 
-header {
-	background-color: rgb(6, 147, 227, 0.2);
-	color: rgb(255, 255, 255);
-	padding-top: 50px;
+/* Hero */
+.hero {
+    background-color: transparent;
+    background: transparent;
+    background-position: bottom right;
+	margin-bottom: 10px;
+}
+
+.text-back {
+	background-color: rgb(37, 20, 78, 0.4);
+	padding: 12px 50px;
 	text-align: center;
-	margin-bottom: 0;
-	padding-top: 100px;
+	color: rgb(12, 12, 12);
+	position: relative;
+	margin-top: -1500px;
+	margin-left: 50px;
+
 }
 
 h1,
 h2 {
 	letter-spacing: 5px;
 	margin-bottom: 0;
+	text-align: right;
 }
 
-path {
-	fill: rgb(6, 147, 227, 0.2);
-	margin-top: 0;
+.text-bigger {
+	font-size: 25px;
+	float: right;
 }
 
 ul {
 	list-style-type: none;
+	float: right;
+	margin-top: 74px;
 }
 
-li a {
+ul li {
+	display: inline-block;
+}
+
+ul li a {
 	text-decoration: none;
-	color: rgb(51, 35, 192);
-	background-color: rgb(10, 6, 48);
-	float: right;
+	color: rgb(255, 255, 255);
+	background-color: rgb(10, 6, 48, 0.725);
 	margin: 5px;
 	padding: 25px;
 	border-radius: 50%;
@@ -48,31 +64,16 @@ li a {
 	margin-top: 15px;
 }
 
-li a:hover {
-	color: rgb(255, 255, 255);
+ul li:hover {
 	background-color: rgb(6, 147, 227, 0.725);
 }
 
-/* Hero */
-.hero {
-	background-color: rgb(255, 255, 255);
-	height: 1350px;
-	width: 1250px;
-	background-position: bottom right;
+ul li a:hover {
+	color: rgb(255, 255, 255);
 }
 
-.text-back-hero {
-	background-color: rgb(37, 20, 78, 0.5);
-	padding: 12px 50px;
-	text-align: center;
-	display: inline-block;
-	color: rgb(12, 12, 12);
-	position: relative;
-	top: -1355px;
-	left: -40px;
-	margin-left: 40px;
-	height: 1327px;
-	width: 1150px;
+article {
+	margin-top:450px;
 }
 
 .white {
@@ -87,6 +88,7 @@ p {
 	font-size: 12px;
 	float: left;
 	text-align: left;
+	font-size: 18px;
 }
 
 .item1 {
@@ -112,22 +114,19 @@ h3 {
 	padding-right: 100px;
 	float: left;
 	text-shadow: 2px 2px rgb(10, 6, 48);
-}
-
-.left {
-	margin-left: 70px;
-	margin-bottom: 30px;
-	float: left;
+	font-size: 36px;
 }
 
 .right {
 	float: right;
 	margin-top: 50px;
+
 }
 
 .text-right {
 	float: left;
 	text-align: right;
+	font-size: 18px;
 }
 
 .center {
@@ -136,21 +135,26 @@ h3 {
 
 /* Footer */
 footer {
-	clear: both;
 	text-align: center;
 	background-color: rgb(10, 6, 48);
-	height: 650px;
-	width: 1176px;
+	height: 680px;
+	width: 1425px;
 	color: rgb(255, 255, 255);
 	margin: auto;
 	padding: 15px;
 	padding-left: 10px;
+	float: both;
+}
+
+.map {
+	float: left;
+	margin-top: 25px;
 }
 
 .text {
 	padding-top: 5px;
 	color: rgb(255, 255, 255);
-	/* text-align: center; */
+	margin-left: 90px;
 }
 
 /* icons */
@@ -213,15 +217,6 @@ footer {
 
 .top {
 	margin-top: 60px;
-}
-
-
-.text-back-footer {
-	margin-top: 25px;
-	margin-left: 25px;
-	height: 600px;
-	width: 800px;
-	float: left;
 }
 
 @media (max-width: 1024px) {
