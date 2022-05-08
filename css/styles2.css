@@ -8,12 +8,33 @@ body {
 	list-style-type: none;
 }
 
+h1, h2, h3 {
+	color: rgb(10, 6, 48);
+}
+
+p {
+	font-size: 18px;
+	color: rgb(255, 255, 255, 0.5);
+}
+
+ul li a{
+	color: rgb(65, 6, 242);
+}
+
+.a {
+	color: rgb(65, 6, 242);	
+}
+
+li {
+	color: rgb(255, 255, 255, 0.5);
+}
+
 /* Footer */
 footer {
 	clear: both;
 	text-align: center;
 	background-color: rgb(10, 6, 48);
-	height: 595px;
+	height: 630px;
 	width: 97%;
 	color: rgb(255, 255, 255);
 	margin: auto;
